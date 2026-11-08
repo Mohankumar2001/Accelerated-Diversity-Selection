@@ -1,0 +1,44 @@
+{
+  "seed": 42,
+  "validation_fraction_of_remaining_prompt_groups": 0.1,
+  "input_rows": {
+    "train": 160800,
+    "test": 8552
+  },
+  "output_rows": {
+    "train": 143446,
+    "validation": 15956,
+    "test": 8488
+  },
+  "unique_prompt_groups": {
+    "train": 142813,
+    "validation": 15868,
+    "test": 8485
+  },
+  "excluded_rows_by_reason": {
+    "train": {
+      "empty_final_response": 183,
+      "different_last_turn_contexts": 312,
+      "identical_final_responses": 739,
+      "prompt_reserved_for_official_test": 164
+    },
+    "test": {
+      "empty_final_response": 11,
+      "different_last_turn_contexts": 17,
+      "identical_final_responses": 36
+    }
+  },
+  "prompt_overlap": {
+    "train_vs_validation": 0,
+    "train_vs_test": 0,
+    "validation_vs_test": 0
+  },
+  "assignment_sha256": {
+    "train": "c509f707e952c3aaa3e15a87c753de03ae153848dc2b50fa3ebbc40515051751",
+    "validation": "6f3683501ac87803926018aca287c08974cf16f5f0be4756612c1b472ee69cbe",
+    "test": "987a1510504f5bac4077786c392f2d6bce6040796886ea1e7784357cace9fd82"
+  },
+  "dataset_revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+  "group_definition": "Full prompt including dialogue history; NFC and normalized line endings; outer whitespace stripped for grouping only.",
+  "test_policy": "Retained rows come only from official test; format filtering and exact deduplication applied. All recognized official-test contexts reserved."
+}

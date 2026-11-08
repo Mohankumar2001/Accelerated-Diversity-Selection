@@ -1,0 +1,18 @@
+{
+  "repo_id": "Anthropic/hh-rlhf",
+  "revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+  "data_files": {
+    "train": [
+      "helpful-base/train.jsonl.gz",
+      "helpful-rejection-sampled/train.jsonl.gz",
+      "helpful-online/train.jsonl.gz",
+      "harmless-base/train.jsonl.gz"
+    ],
+    "test": [
+      "helpful-base/test.jsonl.gz",
+      "helpful-rejection-sampled/test.jsonl.gz",
+      "helpful-online/test.jsonl.gz",
+      "harmless-base/test.jsonl.gz"
+    ]
+  }
+}

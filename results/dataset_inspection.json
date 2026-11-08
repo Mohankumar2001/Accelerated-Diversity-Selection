@@ -1,0 +1,32 @@
+{
+  "repo_id": "Anthropic/hh-rlhf",
+  "revision": "09be8c5bbc57cb3887f3a9732ad6aa7ec602a1fa",
+  "splits": {
+    "train": {
+      "rows": 160800,
+      "columns": [
+        "chosen",
+        "rejected"
+      ],
+      "format_checks": {
+        "matching_context_nonempty_responses": 159566,
+        "empty_final_response": 183,
+        "different_last_turn_contexts": 312,
+        "identical_final_responses": 739
+      }
+    },
+    "test": {
+      "rows": 8552,
+      "columns": [
+        "chosen",
+        "rejected"
+      ],
+      "format_checks": {
+        "matching_context_nonempty_responses": 8488,
+        "empty_final_response": 11,
+        "different_last_turn_contexts": 17,
+        "identical_final_responses": 36
+      }
+    }
+  }
+}
