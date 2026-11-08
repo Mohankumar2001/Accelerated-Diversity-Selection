@@ -1,0 +1,29 @@
+UTC timestamp: 20261108T041611Z
+Slurm job: 13826586
+Host: d14-05.hpc.usc.edu
+CUDA target: sm_70
+Visible GPU devices: 0
+
+Currently Loaded Modules:
+  1) usc/13.3.0   2) gcc/13.3.0   3) python/3.11.9   4) openblas/0.3.28   5) openmpi/5.0.5   6) cuda/12.6.3   7) conda/25.11.0
+
+ 
+
+/apps/generic/gcc/13.3.0/bin/g++
+g++ (GCC) 13.3.0
+Copyright (C) 2023 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+/apps/spack/2406/apps/linux-rocky8-x86_64_v3/gcc-13.3.0/cuda-12.6.3-4yhbknw/bin/nvcc
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2024 NVIDIA Corporation
+Built on Tue_Oct_29_23:50:19_PDT_2024
+Cuda compilation tools, release 12.6, V12.6.85
+Build cuda_12.6.r12.6/compiler.35059454_0
+name, driver_version, memory.total [MiB]
+Tesla V100-PCIE-32GB, 580.159.04, 32768 MiB
+C++ compile and execution: PASS (sum=5000050000)
+CUDA device: Tesla V100-PCIE-32GB, compute capability 7.0
+Custom CUDA compile and execution: PASS (100003 elements, 391 blocks, 256 threads/block)
+ALL COMPILATION CHECKS PASSED
