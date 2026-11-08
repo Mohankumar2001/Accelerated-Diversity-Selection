@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.ipynb_checkpoints/
+
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+
+# Generated data and model files
+/data/
+/embeddings/
+/checkpoints/
+/.cache/
+*.pt
+*.pth
+*.safetensors
+
+# Compiled files and job logs
+/build/
+*.o
+*.so
+slurm-*.out
+
+# Local data symlink
+/data
